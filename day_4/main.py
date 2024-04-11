@@ -44,7 +44,7 @@ elif player == "scissors":
 else:
   print("You didn't pick a valid option!  I'll choose for you.")
   player_choice = comp_choice
-print(f"You Chose:\n {comp_choice}\n")
+print(f"You Chose:\n {player_choice}\n")
 print(f"Computer Chose:\n {comp_choice}\n")
 if player_choice == rock:
   if comp_choice == rock:
