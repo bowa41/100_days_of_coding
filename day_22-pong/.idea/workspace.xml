@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e15943a4-ba3f-407d-8c6b-8f62c8cf8717" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../day_04/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_05/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_07/Solution+-+Hangman+Flowchart+1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_07/hangman_art.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_07/hangman_words.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_07/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_16/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_16/.idea/day-16-start.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_16/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_16/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_16/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_16/another_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_16/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_17/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_17/.idea/day-17-start.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_17/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_17/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_17/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_17/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_17/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_17/question_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_17/quiz_brain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_18/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_18/.idea/day-18-start.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_18/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_18/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_18/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_18/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_19/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_19/.idea/day-19-start.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_19/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_19/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_19/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_19/mail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_21-snake_game/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_21-snake_game/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_21-snake_game/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_21-snake_game/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_21-snake_game/.idea/snake_game.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_21-snake_game/food.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_21-snake_game/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_21-snake_game/scoreboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_21-snake_game/snake.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_23-Turtle Crossing/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_23-Turtle Crossing/.idea/day_23-Turtle Crossing.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_23-Turtle Crossing/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_23-Turtle Crossing/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_23-Turtle Crossing/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_23-Turtle Crossing/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_23-Turtle Crossing/car_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_23-Turtle Crossing/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_23-Turtle Crossing/player.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_23-Turtle Crossing/scoreboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_23-Turtle Crossing/turtle-crossing-start.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hirst_painting/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hirst_painting/.idea/hirst-painting.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hirst_painting/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hirst_painting/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hirst_painting/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hirst_painting/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hirst_painting/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-16-start/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-16-start/.idea/day-16-start.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-16-start/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-16-start/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-16-start/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-16-start/another_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-16-start/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-17-start/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-17-start/.idea/day-17-start.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-17-start/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-17-start/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-17-start/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-17-start/data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-17-start/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-17-start/question_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-17-start/quiz_brain.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-18-start/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-18-start/.idea/day-18-start.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-18-start/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-18-start/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-18-start/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-18-start/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-19-start/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-19-start/.idea/day-19-start.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-19-start/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-19-start/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-19-start/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-19-start/mail.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_4/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_5/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_7/Solution+-+Hangman+Flowchart+1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_7/hangman_art.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_7/hangman_words.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_7/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hirst-painting/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hirst-painting/.idea/hirst-painting.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hirst-painting/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hirst-painting/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hirst-painting/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hirst-painting/image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hirst-painting/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pong/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pong/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pong/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pong/.idea/pong_game.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pong/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pong/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pong/ball.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pong/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pong/paddle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pong/scoreboard.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snake_game/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snake_game/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snake_game/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snake_game/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snake_game/.idea/snake_game.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snake_game/food.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snake_game/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snake_game/scoreboard.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../snake_game/snake.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;bowa41&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/bowa41/100_days_of_coding.git&quot;,
+    &quot;accountId&quot;: &quot;909465e3-e46f-45b7-8d65-faa266195b3c&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2gpz358WY1kPd8JzwHarOdxCXnV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scoreboard.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jordan/PycharmProjects/100_days_of_coding/day_22-pong&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pong_game" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scoreboard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pong_game" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scoreboard.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.scoreboard" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e15943a4-ba3f-407d-8c6b-8f62c8cf8717" name="Changes" comment="" />
+      <created>1716409104270</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716409104270</updated>
+    </task>
+    <servers />
+  </component>
+</project>
