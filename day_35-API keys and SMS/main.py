@@ -33,9 +33,9 @@ for n in range(0,4):
         is_rain = True
 
 if is_rain:
-    account_sid = ""
-    auth_token = ""
-    client = Client(account_sid, auth_token)
+    # account_sid = ""
+    # auth_token = ""
+    # client = Client(account_sid, auth_token)
 
     message = client.messages.create(
         from_="+18556773383",
