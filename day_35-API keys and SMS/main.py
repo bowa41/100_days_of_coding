@@ -33,8 +33,8 @@ for n in range(0,4):
         is_rain = True
 
 if is_rain:
-    account_sid = "AC7ca3204f75d05946ac69acc47d73794a"
-    auth_token = "0f3e6e1378ee0836b1790d56e77ac01b"
+    account_sid = ""
+    auth_token = ""
     client = Client(account_sid, auth_token)
 
     message = client.messages.create(
