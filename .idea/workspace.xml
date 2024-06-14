@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="075a48af-4883-4208-805d-14b4d58ded73" name="Changes" comment="Day 36 and Day 37 projects">
-      <change afterPath="$PROJECT_DIR$/day_38-Workout Tracker/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="075a48af-4883-4208-805d-14b4d58ded73" name="Changes" comment="Day 38 workout tracker" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,12 +129,29 @@
       <option name="project" value="LOCAL" />
       <updated>1718383133194</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Day 38 workout tracker">
+      <option name="closed" value="true" />
+      <created>1718394240181</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718394240181</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Day 38 workout tracker">
+      <option name="closed" value="true" />
+      <created>1718394251062</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718394251062</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Day 36 and Day 37 projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 36 and Day 37 projects" />
+    <MESSAGE value="Day 38 workout tracker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 38 workout tracker" />
   </component>
 </project>
