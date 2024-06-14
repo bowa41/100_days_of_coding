@@ -1,4 +1,6 @@
 import requests
+import os
+
 from twilio.rest import Client
 
 #   JSON Online Viewer: https://jsonviewer.stack.hu/
@@ -7,7 +9,7 @@ from twilio.rest import Client
 #   get twilio to work with free accounts in python anywhere
 #   https://help.pythonanywhere.com/pages/TwilioBehindTheProxy/
 
-api_key = "d98addc8979896bedfed0b73dc4f23bd"
+api_key = os.environ["OWM_API_KEY"]
 # MY_LAT = 36.007568
 # MY_LONG = -115.302760
 MY_LAT = 26.122438
@@ -33,14 +35,14 @@ for n in range(0,4):
         is_rain = True
 
 if is_rain:
-    # account_sid = ""
-    # auth_token = ""
-    # client = Client(account_sid, auth_token)
+    account_sid = "AC7ca3204f75d05946ac69acc47d73794a"
+    auth_token = os.environ['TWILIO_AUTH_KEY']
+    client = Client(account_sid, auth_token)
 
     message = client.messages.create(
         from_="+18556773383",
         body="It's going to rain today, better bring an ☂️",
-        to="+18556773383"
+        to="+18777804236"
     )
 
     print(message.status)
