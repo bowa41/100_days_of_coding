@@ -1,13 +1,15 @@
 import requests
 import os
 from datetime import datetime
+from dotenv import load_dotenv
 
+load_dotenv()
 
-APP_ID = os.environ.get("APP_ID")
-API_KEY = os.environ.get("API_KEY")
-ENDPOINT = os.environ.get("ENDPOINT")
-SHEET_ENDPOINT = os.environ.get("SHEET_ENDPOINT")
-TOKEN = os.environ.get("TOKEN")
+NUTRITIONIX_ID = os.getenv("NUTRITIONIX_ID")
+NUTRITIONIX_KEY = os.getenv("NUTRITIONIX_KEY")
+NUTRITIONIX_ENDPOINT = os.getenv("NUTRITIONIX_ENDPOINT")
+SHEET_ENDPOINT = os.getenv("SHEET_ENDPOINT")
+TOKEN = os.getenv("TOKEN")
 
 GENDER = "male"
 WEIGHT_KG = "65.7709"
@@ -23,12 +25,12 @@ user_params = {
   }
 
 headers = {
-    "x-app-id": APP_ID,
-    "x-app-key": API_KEY
+    "x-app-id": NUTRITIONIX_ID,
+    "x-app-key": NUTRITIONIX_KEY
 }
 
 
-response = requests.post(url=ENDPOINT, json=user_params, headers=headers)
+response = requests.post(url=NUTRITIONIX_ENDPOINT, json=user_params, headers=headers)
 exercise_data = response.json()
 
 sheet_headers = {f"Authorization": f"Basic {TOKEN}"}
@@ -49,6 +51,6 @@ for n in range(0,(len(exercise_data["exercises"]))):
         "calories": calories,
         }
     }
-    response = requests.post(url=SHEET_ENDPOINT, json=sheet_params, headers=sheet_headers)
-    print(response.text)
+    response2 = requests.post(url=SHEET_ENDPOINT, json=sheet_params, headers=sheet_headers)
+    print(response2.text)
 
