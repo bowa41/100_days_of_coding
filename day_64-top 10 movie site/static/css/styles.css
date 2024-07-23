@@ -1,214 +1,126 @@
-*, *:before, *:after {
-	 box-sizing: border-box;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
- html {
-	 font-size: 18px;
-	 line-height: 1.5;
-	 font-weight: 300;
-	 color: #333;
-	 font-family: "Nunito Sans", sans-serif;
+html {
+  font-family: system-ui;
+  background: #3d76d9;
 }
- body {
-	 margin: 0;
-	 padding: 0;
-	 height: 100vh;
-	 background-color: #ecf0f9;
-	 background-attachment: fixed;
+.visuallyhidden {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  opacity: 0;
+
 }
-.large {
-     font-size: 3rem;
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 1em;
 }
- .content {
-	 display: flex;
-	 margin: 0 auto;
-	 justify-content: center;
-	 align-items: center;
-	 flex-wrap: wrap;
-	 max-width: 1500px;
+.container {
+  overflow: hidden;
+  padding: 20px;
+  margin-top: 2em;
+  background: rgba(0,0,0,.1)
 }
- p.overview {
-	 font-size: 12px;
-	 height: 200px;
-	 width: 100%;
-	 overflow: hidden;
-	 text-overflow: ellipsis;
+.card-carousel {
+  --card-width: 80%;
+  --card-max-width: 280px;
+  --card-height: 350px;
+  --carousel-min-width: 600px;
+  z-index: 1;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: var(--card-height);
+  min-width: var(--carousel-min-width);
+  transition: filter .3s ease;
 }
- .heading {
-	 width: 100%;
-	 margin-left: 1rem;
-	 font-weight: 900;
-	 font-size: 1.618rem;
-	 text-transform: uppercase;
-	 letter-spacing: 0.1ch;
-	 line-height: 1;
-	 padding-bottom: 0.5em;
-	 margin-bottom: 1rem;
-	 position: relative;
+@media screen and (max-width: 640px) {
+  .card-carousel {
+    margin-left: calc((100vw - var(--carousel-min-width) - 40px) / 2)
+  }
 }
- .heading:after {
-	 display: block;
-	 content: '';
-	 position: absolute;
-	 width: 60px;
-	 height: 4px;
-	 background: linear-gradient(135deg, #1a9be6, #1a57e6);
-	 bottom: 0;
+.card-carousel.smooth-return {
+  transition: all .2s ease;
 }
- .description {
-	 width: 100%;
-	 margin-top: 0;
-	 margin-left: 1rem;
-	 margin-bottom: 3rem;
+.card-carousel .card {
+  background: whitesmoke;
+  width: var(--card-width);
+  max-width: var(--card-max-width);
+  text-align: center;
+  padding: 1em;
+  min-width: 250px;
+  height: var(--card-height);
+  position: absolute;
+  margin: 0 auto;
+  color: rgba(0,0,0,.5);
+  transition: inherit;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+  border-radius: 1em;
+  filter: brightness(.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
- .card {
-	 color: inherit;
-	 cursor: pointer;
-	 width: calc(33% - 3rem);
-	 min-width: calc(33% - 3rem);
-	 height: 400px;
-	 min-height: 400px;
-	 perspective: 1000px;
-	 margin: 1rem auto;
-	 position: relative;
+.card.highlight {
+  filter: brightness(1)
 }
- @media screen and (max-width: 800px) {
-	 .card {
-		 width: calc(50% - 3rem);
-	}
-}
- @media screen and (max-width: 500px) {
-	 .card {
-		 width: 100%;
-	}
-}
- .front, .back {
-	 display: flex;
-	 border-radius: 6px;
-	 background-position: center;
-	 background-size: cover;
-	 text-align: center;
-	 justify-content: center;
-	 align-items: center;
-	 position: absolute;
-	 height: 100%;
-	 width: 100%;
-	 -webkit-backface-visibility: hidden;
-	 backface-visibility: hidden;
-	 transform-style: preserve-3d;
-	 transition: ease-in-out 600ms;
-}
- .front {
-	 background-size: cover;
-	 padding: 2rem;
-	 font-size: 1.618rem;
-	 font-weight: 600;
-	 color: #fff;
-	 overflow: hidden;
-	 font-family: Poppins, sans-serif;
-}
- .front:before {
-	 position: absolute;
-	 display: block;
-	 content: '';
-	 top: 0;
-	 left: 0;
-	 right: 0;
-	 bottom: 0;
-	 background: linear-gradient(135deg, #1a9be6, #1a57e6);
-	 opacity: 0.25;
-	 z-index: -1;
-}
- .card:hover .front {
-	 transform: rotateY(180deg);
-}
- .card:nth-child(even):hover .front {
-	 transform: rotateY(-180deg);
-}
- .back {
-	 background: #fff;
-	 transform: rotateY(-180deg);
-	 padding: 0 2em;
-}
- .card:hover .back {
-	 transform: rotateY(0deg);
-}
- .card:nth-child(even) .back {
-	 transform: rotateY(180deg);
-}
- .card:nth-child(even):hover .back {
-	 transform: rotateY(0deg);
-}
- .button {
-	 transform: translateZ(40px);
-	 cursor: pointer;
-	 -webkit-backface-visibility: hidden;
-	 backface-visibility: hidden;
-	 font-weight: bold;
-	 color: #fff;
-	 padding: 0.5em 1em;
-	 border-radius: 100px;
-	 font: inherit;
-	 background: linear-gradient(135deg, #1a9be6, #1a57e6);
-	 border: none;
-	 position: relative;
-	 transform-style: preserve-3d;
-	 transition: 300ms ease;
-}
- .button:before {
-	 transition: 300ms ease;
-	 position: absolute;
-	 display: block;
-	 content: '';
-	 transform: translateZ(-40px);
-	 -webkit-backface-visibility: hidden;
-	 backface-visibility: hidden;
-	 height: calc(100% - 20px);
-	 width: calc(100% - 20px);
-	 border-radius: 100px;
-	 left: 10px;
-	 top: 16px;
-	 box-shadow: 0 0 10px 10px rgba(26, 87, 230, 0.25);
-	 background-color: rgba(26, 87, 230, 0.25);
+.card:nth-of-type(1) .image-container {
+    background-image: url("https://static.addtoany.com/images/dracaena-cinnabari.jpg");
 }
 
-.button.delete-button {
-	 background-color: rgba(230, 87, 230, 0.25);
-	 background: linear-gradient(135deg, #e61a46, #e61a1a);
+.card:nth-of-type(2) .image-container {
+  background-image: url("https://www.w3schools.com/w3css/img_lights.jpg")
 }
-.button.delete-button:before {
-	 background-color: rgba(230, 87, 230, 0.25);
-	 box-shadow: 0 0 10px 10px rgba(230, 87, 230, 0.25);
+.card:nth-of-type(3) .image-container {
+  background-image: url("https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
 }
- .button:hover {
-	 transform: translateZ(55px);
+.card:nth-of-type(4) .image-container {
+  background-image: url("https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
 }
- .button:hover:before {
-	 transform: translateZ(-55px);
+.card:nth-of-type(5) .image-container {
+  background-image: url("https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg")
 }
- .button:active {
-	 transform: translateZ(20px);
+.image-container {
+  width: 8em;
+  height: 8em;
+  position: relative;
+  background-size: cover;
+  margin-bottom: 2em;
+  border-radius: 100%;
+  padding: 1em;
+  -webkit-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
+-moz-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
+box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
+
 }
- .button:active:before {
-	 transform: translateZ(-20px);
-	 top: 12px;
-	 top: 12px;
+.image-container::after {
+  content: "";
+  display: block;
+  width: 120%;
+  height: 120%;
+  border: solid 3px rgba(0,0,0,.1);
+  border-radius: 100%;
+  position: absolute;
+  top: calc(-10% - 3px);
+  left: calc(-10% - 3px);
 }
-.container.add {
-    margin-top: 40px;
-    margin-bottom: 20px;
+h2 {
+  padding: 1em;
+  margin-top: 1em;
+  background: rgba(0,0,0,.3);
+  text-align: center;
+  color: white;
+  border-radius: .2em;
+  display: inline-block;
+  transform: translateX(calc((100vw - 100%) / 2))
 }
-.rating {
-    color: #E4BB23;
-}
-.review {
-    font-style: italic;
-}
- .movie_gens {
-	 font-size: 11.5px;
-}
- .title {
-	 font-weight: bold;
-}
- .release_date {
-	 font-weight: normal;
+h2 a {
+  color: #f5b916
 }
