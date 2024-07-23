@@ -4,12 +4,249 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="075a48af-4883-4208-805d-14b4d58ded73" name="Changes" comment="Day 53 - Zillow Capstone project">
-      <change afterPath="$PROJECT_DIR$/day_54-55-Hello Flask/advanced_decorators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_54-55-Hello Flask/hello.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day_54-55-Hello Flask/higher-lower/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="075a48af-4883-4208-805d-14b4d58ded73" name="Changes" comment="Day 54/55 - Intro to Flask and decorators">
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/html5up-story.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/index-demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/.sass-cache/12a6f86b5e4aa64fcb14102de616aea4d622c84f/ie8.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/.sass-cache/12a6f86b5e4aa64fcb14102de616aea4d622c84f/ie9 - Copy.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/.sass-cache/12a6f86b5e4aa64fcb14102de616aea4d622c84f/ie9.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/.sass-cache/12a6f86b5e4aa64fcb14102de616aea4d622c84f/main.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/.sass-cache/12a6f86b5e4aa64fcb14102de616aea4d622c84f/noscript.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/.sass-cache/67a30392a9c4d42ed248c6b1404813d02df84637/_functions.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/.sass-cache/67a30392a9c4d42ed248c6b1404813d02df84637/_mixins.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/.sass-cache/67a30392a9c4d42ed248c6b1404813d02df84637/_skel.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/.sass-cache/67a30392a9c4d42ed248c6b1404813d02df84637/_vars.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/.sass-cache/7e789d186c055861f24133e1b9885bb81c49b2aa/_copyright.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/.sass-cache/7e789d186c055861f24133e1b9885bb81c49b2aa/_footer.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/.sass-cache/7e789d186c055861f24133e1b9885bb81c49b2aa/_main.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/.sass-cache/7e789d186c055861f24133e1b9885bb81c49b2aa/_wrapper.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/.sass-cache/cf0bea95a132a2d2ad494712665ec6344019307b/_button.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/.sass-cache/cf0bea95a132a2d2ad494712665ec6344019307b/_form.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/.sass-cache/cf0bea95a132a2d2ad494712665ec6344019307b/_icon.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/.sass-cache/cf0bea95a132a2d2ad494712665ec6344019307b/_list.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/.sass-cache/fdfbe966239fea8d85b20cc3e91511822b0ce989/_page.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/.sass-cache/fdfbe966239fea8d85b20cc3e91511822b0ce989/_typography.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/css/ie8.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/css/ie9.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/css/images/overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/css/noscript.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/js/PIE.htc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/js/html5shiv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/js/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/sass/base/_page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/sass/base/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/sass/components/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/sass/components/_form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/sass/components/_icon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/sass/components/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/sass/ie8.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/sass/ie9.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/sass/layout/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/sass/layout/_main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/sass/layout/_wrapper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/sass/libs/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/sass/libs/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/sass/libs/_skel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/sass/libs/_vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/sass/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/assets/sass/noscript.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/images/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/static/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/name-card/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/css/noscript.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/js/breakpoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/js/browser.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/js/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/js/jquery.scrollex.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/js/jquery.scrolly.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/js/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/sass/base/_page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/sass/base/_reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/sass/base/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/sass/components/_actions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/sass/components/_banner.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/sass/components/_box.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/sass/components/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/sass/components/_form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/sass/components/_gallery.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/sass/components/_icon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/sass/components/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/sass/components/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/sass/components/_index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/sass/components/_items.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/sass/components/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/sass/components/_row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/sass/components/_section.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/sass/components/_spotlight.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/sass/components/_table.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/sass/components/_wrapper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/sass/layout/_wrapper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/sass/libs/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/sass/libs/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/sass/libs/_html-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/sass/libs/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/sass/libs/_vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/sass/libs/_vendor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/sass/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/sass/noscript.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/assets/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/gallery/fulls/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/gallery/fulls/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/gallery/fulls/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/gallery/fulls/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/gallery/fulls/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/gallery/fulls/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/gallery/fulls/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/gallery/fulls/08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/gallery/fulls/09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/gallery/fulls/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/gallery/fulls/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/gallery/fulls/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/gallery/thumbs/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/gallery/thumbs/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/gallery/thumbs/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/gallery/thumbs/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/gallery/thumbs/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/gallery/thumbs/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/gallery/thumbs/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/gallery/thumbs/08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/gallery/thumbs/09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/gallery/thumbs/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/gallery/thumbs/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/gallery/thumbs/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/pic01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/pic02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/pic03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/spotlight01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/spotlight02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/static/images/spotlight03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_56-my_personal_site/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_57/day-57-start.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_57/day-57-starting-files-blog-templating.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_57/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_57/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_57/templates/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_57/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_57/templates/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_58/11.2 Bootstrap Components/box-seam.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_58/11.2 Bootstrap Components/briefcase.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_58/11.2 Bootstrap Components/bus-front.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_58/11.2 Bootstrap Components/chat-square-heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_58/11.2 Bootstrap Components/chevron-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_58/11.2 Bootstrap Components/couple.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_58/11.2 Bootstrap Components/dog.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_58/11.2 Bootstrap Components/family.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_58/11.2 Bootstrap Components/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_58/11.2 Bootstrap Components/moving-van.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_58/11.2 Bootstrap Components/solution.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_58/11.2 Bootstrap Components/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_58/11.2 Bootstrap Components/website-text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_58/11.3 TinDog Project/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_58/11.3 TinDog Project/css/solution.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_58/11.3 TinDog Project/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_58/11.3 TinDog Project/goal images/features-goal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_58/11.3 TinDog Project/goal images/footer-goal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_58/11.3 TinDog Project/goal images/pricing-goal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_58/11.3 TinDog Project/goal images/testimonial-goal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_58/11.3 TinDog Project/goal images/title-goal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_58/11.3 TinDog Project/images/bizinsider.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_58/11.3 TinDog Project/images/dog-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_58/11.3 TinDog Project/images/iphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_58/11.3 TinDog Project/images/mashable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_58/11.3 TinDog Project/images/techcrunch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_58/11.3 TinDog Project/images/tnw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_58/11.3 TinDog Project/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_58/11.3 TinDog Project/solution.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_59-Bootstrap Capstone Project/day-59-upgraded-blog-end.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_59-Bootstrap Capstone Project/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_59-Bootstrap Capstone Project/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_59-Bootstrap Capstone Project/static/assets/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_59-Bootstrap Capstone Project/static/assets/img/about-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_59-Bootstrap Capstone Project/static/assets/img/contact-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_59-Bootstrap Capstone Project/static/assets/img/home-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_59-Bootstrap Capstone Project/static/assets/img/post-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_59-Bootstrap Capstone Project/static/assets/img/post-sample-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_59-Bootstrap Capstone Project/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_59-Bootstrap Capstone Project/static/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_59-Bootstrap Capstone Project/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_59-Bootstrap Capstone Project/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_59-Bootstrap Capstone Project/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_59-Bootstrap Capstone Project/templates/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_59-Bootstrap Capstone Project/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_59-Bootstrap Capstone Project/templates/post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_60-Flask Forms/day-60-blog-with-contact-form-end.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_60-Flask Forms/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_60-Flask Forms/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_60-Flask Forms/static/assets/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_60-Flask Forms/static/assets/img/about-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_60-Flask Forms/static/assets/img/contact-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_60-Flask Forms/static/assets/img/home-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_60-Flask Forms/static/assets/img/post-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_60-Flask Forms/static/assets/img/post-sample-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_60-Flask Forms/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_60-Flask Forms/static/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_60-Flask Forms/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_60-Flask Forms/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_60-Flask Forms/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_60-Flask Forms/templates/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_60-Flask Forms/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_60-Flask Forms/templates/post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_61-Flask-WTF/day-61-flask-secrets-end.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_61-Flask-WTF/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_61-Flask-WTF/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_61-Flask-WTF/templates/denied.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_61-Flask-WTF/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_61-Flask-WTF/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_61-Flask-WTF/templates/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_62-Advanced Flask-WTF/day-62-starting-files-coffee-and-wifi.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_63-SQLite &amp; SQLAlchemy/instance/books-collection.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_63-SQLite &amp; SQLAlchemy/instance/new-books-collection.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_63-SQLite &amp; SQLAlchemy/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_63-SQLite &amp; SQLAlchemy/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_63-SQLite &amp; SQLAlchemy/sql_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_63-SQLite &amp; SQLAlchemy/templates/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_63-SQLite &amp; SQLAlchemy/templates/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_63-SQLite &amp; SQLAlchemy/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_64-top 10 movie site/instance/top10-movies.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_64-top 10 movie site/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_64-top 10 movie site/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_64-top 10 movie site/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_64-top 10 movie site/templates/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_64-top 10 movie site/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_64-top 10 movie site/templates/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_64-top 10 movie site/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day_64-top 10 movie site/templates/select.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day_41-44-Web Development Projects/day_44/6.4 Motivation Meme Project/solution/solution.css" beforeDir="false" afterPath="$PROJECT_DIR$/day_41-44-Web Development Projects/day_44/6.4 Motivation Meme Project/solution/solution.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +257,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -38,50 +276,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.advanced_decorators.executor": "Run",
-    "Python.cookie.executor": "Run",
-    "Python.data_manager.executor": "Run",
-    "Python.flight_search.executor": "Run",
-    "Python.hello.executor": "Run",
-    "Python.interaction.executor": "Run",
-    "Python.main (1).executor": "Run",
-    "Python.main (2).executor": "Run",
-    "Python.main (3).executor": "Run",
-    "Python.main (4).executor": "Run",
-    "Python.main (5).executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.notification_manager.executor": "Run",
-    "Python.server.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.advanced_decorators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cookie.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_manager.executor&quot;: &quot;Run&quot;,
+    &quot;Python.flight_search.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hello.executor&quot;: &quot;Run&quot;,
+    &quot;Python.interaction.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (3).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (4).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (5).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.notification_manager.executor&quot;: &quot;Run&quot;,
+    &quot;Python.server (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.server (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.server (3).executor&quot;: &quot;Run&quot;,
+    &quot;Python.server.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sql_test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bowa4/PycharmProjects/100_days_of_coding/day_57/templates&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.server">
-    <configuration name="advanced_decorators" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="100_days_of_coding" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day_54-55-Hello Flask" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day_54-55-Hello Flask/advanced_decorators.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bowa4\PycharmProjects\100_days_of_coding\day_57\templates" />
+      <recent name="C:\Users\bowa4\PycharmProjects\100_days_of_coding\day_56-my_personal_site\name-card" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bowa4\PycharmProjects\100_days_of_coding\day_59-Bootstrap Capstone Project\static" />
+      <recent name="C:\Users\bowa4\PycharmProjects\100_days_of_coding\day_59-Bootstrap Capstone Project\templates" />
+      <recent name="C:\Users\bowa4\PycharmProjects\100_days_of_coding\day_57\templates" />
+      <recent name="C:\Users\bowa4\PycharmProjects\100_days_of_coding\day_56-my_personal_site\name-card" />
+      <recent name="C:\Users\bowa4\PycharmProjects\100_days_of_coding\day_56-my_personal_site\static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
     <configuration name="flaskPro" type="PythonConfigurationType" factoryName="Python">
       <module name="100_days_of_coding" />
       <option name="ENV_FILES" value="" />
@@ -107,23 +342,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100_days_of_coding" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="FLASK_APP" value="hello" />
-        <env name="FLASK_ENV" value="development" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day_54-Hello Flask" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day_59-Bootstrap Capstone Project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day_54-Hello Flask/hello.py" />
-      <option name="PARAMETERS" value="run --host=0.0.0.0 --port=80" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day_59-Bootstrap Capstone Project/main.py" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -131,7 +364,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100_days_of_coding" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,11 +373,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day_53-Zillow Capstone" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day_61-Flask-WTF" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day_53-Zillow Capstone/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day_61-Flask-WTF/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="100_days_of_coding" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day_63-SQLite &amp; SQLAlchemy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day_63-SQLite &amp; SQLAlchemy/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,11 +417,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day_51-Twitter Complaint Bot" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day_64-top 10 movie site" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day_51-Twitter Complaint Bot/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day_64-top 10 movie site/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,7 +430,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sql_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="100_days_of_coding" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,11 +439,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day_54-55-Hello Flask/higher-lower" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day_63-SQLite &amp; SQLAlchemy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day_54-55-Hello Flask/higher-lower/server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day_63-SQLite &amp; SQLAlchemy/sql_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,19 +454,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.flaskPro" />
-      <item itemvalue="Python.advanced_decorators" />
-      <item itemvalue="Python.server" />
-      <item itemvalue="Python.hello" />
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.main (2)" />
+      <item itemvalue="Python.main (4)" />
+      <item itemvalue="Python.sql_test" />
+      <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.main (3)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.server" />
-        <item itemvalue="Python.advanced_decorators" />
-        <item itemvalue="Python.hello" />
-        <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.main (4)" />
+        <item itemvalue="Python.sql_test" />
+        <item itemvalue="Python.main (3)" />
+        <item itemvalue="Python.main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +566,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719860514122</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Day 54/55 - Intro to Flask and decorators">
+      <option name="closed" value="true" />
+      <created>1719945218958</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1719945218958</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -324,6 +587,7 @@
     <MESSAGE value="Day 48 Cookie Game Bot" />
     <MESSAGE value="Day 50/51 Tinder Bot and Twitter Complaint Bot" />
     <MESSAGE value="Day 53 - Zillow Capstone project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 53 - Zillow Capstone project" />
+    <MESSAGE value="Day 54/55 - Intro to Flask and decorators" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 54/55 - Intro to Flask and decorators" />
   </component>
 </project>

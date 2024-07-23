@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Add Book</title>
+  </head>
+  <body>
+    <form action="{{ url_for('add') }}" method="POST">
+      {{ form.csrf_token }}
+      <p>{{ form.book_name.label }} {{ form.book_name() }}</p>
+      <p>{{ form.book_author.label }} {{ form.book_author() }}</p>
+      <p>{{ form.book_rating.label }} {{ form.book_rating() }} </p>
+      <button type="submit">Add Book</button>
+    </form>
+  </body>
+</html>
